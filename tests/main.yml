@@ -1,6 +1,6 @@
 ---
 - name: Intro to Ansible Playbooks
-  hosts: all
+  hosts: allff
 
   tasks:
   - name: Copy file hosts with permissions
@@ -11,5 +11,5 @@
   - name: Add the user 'test'
     ansible.builtin.user:
       name: test
-    become: yes
+    become: yesff
     become_method: sudo
